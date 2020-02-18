@@ -1,0 +1,12 @@
+#diagnosticos{
+	margin: 0;
+	padding: 1.5em 0;
+	background: linear-gradient(180deg, $pc-color1 0%, $pc-color4 100%);
+	h1{
+		font-style: normal;
+		font-size: 1.5em;
+		font-weight: $font-bold;
+		color: $pc-color3;
+		text-align: center;
+	}
+}

@@ -1,0 +1,14 @@
+.header_navbar {
+   nav {
+      min-height: 100px;
+      border-bottom: 2px solid $pc-color1;
+
+      img{
+         height: 3.5em;
+      }
+
+      a {
+         font-size: 1em;
+      }
+   }
+}

@@ -1,0 +1,64 @@
+//TABLET
+@media screen and (max-width: 768px) {
+
+   //BODY
+   * {
+      font-size: 14px;
+   }
+
+   //MAIN
+   main{
+      #servicos{
+         .main_services_content{
+            .row{
+               .card{
+                  .card-body{
+                     .card-title{
+                        font-size: 1.5em;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+//MOBILE
+@media screen and (max-width: 576px) {
+   //MAIN
+   main {
+      .main_cta {
+         .main_cta_header {
+            h1 {
+               font-size: 1.875em;
+            }
+         }
+
+         .main_cta_content {
+            p {
+               width: 100%;
+               font-size: 1.125em;
+            }
+
+            a {
+               margin-top: 2em;
+            }
+         }
+      }
+   }
+
+   footer{
+      .footer_developer{
+         .footer_developer_container{
+            flex-direction: column;
+            align-items: center;
+            .footer_developer_goognet{
+               margin-bottom: .5em;
+               padding-bottom: .5em;
+               border-bottom: 1px solid $pc-color5;
+            }
+         }
+      }
+   }
+}

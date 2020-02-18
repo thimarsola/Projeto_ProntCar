@@ -1,0 +1,59 @@
+//CORES
+$pc-color1: #A5090F;
+$pc-color2: #333333;
+$pc-color3: #fff;
+$pc-color4: #650609;
+$pc-color5: #F20C14;
+//BACKGROUND COLOR
+$bg-color1: rgba(255, 255, 255, 0.9);
+//FONT COLOR
+$ft-color1: #5D84A6;
+$ft-color2: #BCBCBC;
+
+//FONT-WEIGHT
+$font-light: 300;
+$font-bold: 500;
+
+//TRANSITION
+@mixin transition($transition) {
+	-webkit-transition: all $transition linear;
+	-moz-transition: all $transition linear;
+	transition: all $transition linear;
+}
+
+$theme-colors: ("pc-color1": $pc-color1,
+	"pc-color2": $pc-color2,
+	"pc-color3": $pc-color3,
+	"pc-color4": $pc-color4,
+	"bg-color1": $bg-color1,
+);
+
+/*Bootstrap*/
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//BOOT
+@import "_boot/boot";
+
+// NAVBAR
+@import "_navbar/navbar";
+
+//CTA
+@import "_cta/cta";
+
+//COMPANY
+@import "_company/company";
+
+//DIAGNOSTICS
+@import "_diagnostic/diagnostic";
+
+//PILLARS
+@import "_pillars/pillars";
+
+// SERVICES
+@import "_services/services";
+
+// FOOTER
+@import "_footer/footer";
+
+// RESPONSIVO
+@import "_mediaQuery/mediaQuery";

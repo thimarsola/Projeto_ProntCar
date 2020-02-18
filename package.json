@@ -1,0 +1,23 @@
+{
+  "name": "projeto-prontcar",
+  "version": "1.0.0",
+  "description": "Projeto Website Prontcar Cambios\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ŝ\u001b[D\u001b[D\u001b[C\u001b[â\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thimarsola/Projeto_ProntCar.gi.git"
+  },
+  "author": "Thiago Marsola - Goognet Soluçao Digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thimarsola/Projeto_ProntCar.gi/issues"
+  },
+  "homepage": "https://github.com/thimarsola/Projeto_ProntCar.gi#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
