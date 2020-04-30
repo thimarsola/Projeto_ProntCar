@@ -18,6 +18,6 @@
   "homepage": "https://github.com/thimarsola/Projeto_ProntCar.gi#readme",
   "devDependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
